@@ -1,0 +1,31 @@
+/* css/styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.section {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid black;
+}
